@@ -3,11 +3,14 @@ using HW_19._03._2019.Repository;
 using QRCoder;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static QRCoder.PayloadGenerator;
 
 namespace HW_19._03._2019
 {
@@ -53,6 +56,7 @@ namespace HW_19._03._2019
                         }
                     }
                     break;
+
                 default:
                     break;
             }
